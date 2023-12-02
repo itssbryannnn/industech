@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;0,900;1,600&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navBAR {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 35px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+
+.left-container {
+    display: flex;
+    margin-left: 50px;
+}
+
+.bsulogo {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    margin-right: 10px; /* Adjust as needed for spacing between logo and text */
+}
+
+.logo-container {
+    display: flex;
+    align-self: center; /* Vertically center the logo within the .left-container */
+}
+
+.logo {
+    font-size: x-large;
+    color: black;
+    cursor: default;
+    align-self: center;
+    line-height: 25px;
+}
+
+span {
+    color: darkred;
+    font-size: medium;
+    align-self: center;
+    font-weight: 500;
+}
+
+.navigation {
+    text-align: right;
+}
+
+.navButton {
+    color: black;
+    text-decoration: none;
+    font-size: 1.11em;
+    font-weight: 500;
+    transition: .3s;
+    margin-left: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navButton :hover {
+    color: darkred;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.2em !important; /* Adjust the size as needed */
+    
+}
+
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 400px 100px;
+    background: url(banner\ 1102.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: left;
+    background-color: white;
+}
+
+.content{
+    
+    max-width: 800px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding: 20px;
+    background-color: transparent;
+
+
+
+}
+
+.citlogo img{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+
+.citlogo2{
+    display: none;
+}
+
+
+.citlogo{
+    
+    width: 35%;
+    float: right;
+    margin-left: 20px;
+    margin-top: 0px;
+    background-color: transparent;
+}
+
+.content h2{
+    font-size: 3em;
+    margin-top: 20px;
+    color:yellow;
+    text-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); 
+    text-align: left;
+    max-width: 1200px;
+    
+}
+/* background: rgb(255,87,87);
+background: linear-gradient(90deg, rgba(255,87,87,1) 0%, rgba(255,0,0,1) 50%, rgba(255,89,89,1) 100%); */
+
+.content h4{
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); 
+    max-width: 1200px;
+    text-align: left;
+}
+
+.content p{
+    max-width: 500px;
+    text-align: left;
+}
+
+.groupedButtons{
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: left;
+}
+.groupedButtons a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: darkred;
+    border-radius: 10px;
+    border: 2px solid darkred;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.home2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 300px 100px;
+    background: url(banner\ 1102.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+
+.carousel-container {
+    margin-top: 20px;
+    position: relative;
+    width: 100%; 
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Fix the typo here */
+    overflow: hidden;
+    
+}
+
+.carousel-slide {
+    display: none;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+
+
+.carousel-slide img {
+    object-fit: cover;
+    height: auto;
+    background-size: cover;
+  
+   
+
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+
+.carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    
+}
+
+
+.carousel-text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+
+}
+
+.carousel-text1 h1{
+    font-size: 5em;
+    margin-bottom: 10px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+    
+}
+
+.carousel-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.carousel-text p {
+    font-size: 1em;
+    
+    
+}
+
+.carousel-container {
+        margin-top: 20px;
+        position: relative;
+        width: 100%; 
+        height: 100vh;
+        margin: auto;
+        overflow: hidden;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+.downloadContainer{
+    margin-top: 60px;
+}
+.download{
+    
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: darkgreen;
+    border-radius: 20px;
+    border: 0px solid darkred;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.downloadContainer :hover{
+    background: darkred;
+}
+
+.organizations{
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 100px 100px;
+    background: url(bg10112.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+
+.title-container{
+    text-align: center;
+    color: whitesmoke;
+    background-color: transparent;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+    
+}
+
+.title-container h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+}
+
+.orglogos-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+}
+
+
+.orglogo{
+    text-align: center;
+    margin-right: 50px;
+}
+
+.orglogo img{
+    height: 200px;
+    width: auto;
+}
+
+
+.faculty-container{
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 10px
+}
+
+.lectureType{
+    text-align: center;
+}
+
+.faculty-container h1{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.containers{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.containers h4{
+    font-weight: 500;
+}
+
+
+.permanent{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.permanent h2{
+    text-align: center;
+    
+    
+}
+
+.guest-lec{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.guest-lec h2{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.about{
+    text-align: center;
+    background-color: transparent;
+    margin-top: 100px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    background: url(bg10112.png);
+    color: white;
+    
+}
+
+.about h1 {
+    margin-top: 20px; /* Adjust the margin as needed */
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+
+.video-container{
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+    overflow: hidden;
+    max-width: 100%;
+}
+.video-container iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Add % here */
+    height: 80%;
+}
+
+
+footer {
+    background-color: whitesmoke;
+    padding: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left,
+.footer-right {
+    max-width: 100%; 
+    
+}
+
+.footer-right {
+    text-align: right;
+    background-color: yellow;
+}
+
+.bsulogoPUTER{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.lugo-container{
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: lightgrey;
+}
+/*media query for responsiveness */
+
+@media screen and (max-width: 1360px) {
+    
+    .hamburger-menu{
+        display: flex;
+    }
+   
+
+    .navigation {
+        display: flex; /* Hide the navigation by default on smaller screens */
+        flex-direction: column;
+        align-items: flex-end;
+        position: absolute;
+        top: 60px; /* Adjust top position as needed */
+        right: 0;
+        background-color: whitesmoke;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .navigation a {
+        margin-bottom: 10px; /* Adjust spacing between navigation links */
+    }
+
+    .navigation.show {
+        display: flex; /* Show the navigation when the "show" class is added */
+    }
+}
+
+@media screen and (max-width: 896px) {
+   
+    .content {
+        padding: 20px;
+        align-items: center;
+    }
+
+    .navBAR {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 15px; /* Adjust padding for smaller screens */
+        margin-top: 0px;
+    }
+    
+    .left-container {
+        margin-left: 0px;
+        line-height: 0px;
+    }
+    
+    .bsulogo {
+        width: 40px; /* Adjust logo size for smaller screens */
+        height: 40px;
+        margin-right: 10px; /* Adjust as needed for spacing between logo and text */
+        margin-left: 0px;
+    }
+    
+    .logo-container {
+        display: flex;
+        align-self: center; /* Vertically center the logo within the .left-container */
+    }
+
+    .logo{
+        font-size: small; /* Adjust font size for smaller screens */
+        line-height: 10px;
+    }
+
+    .logo span{
+        font-size: x-small; /* Adjust font size for smaller screens */
+    }
+
+    .right-container {
+        display: flex;
+    }
+
+    .home {
+        padding: 200px 20px; /* Adjust padding for smaller screens */
+    }
+
+    .content {
+        width: 100%; /* Make content full-width on smaller screens */
+        margin: 20px 0; /* Adjust margin for smaller screens */
+    }
+
+    .content img {
+        margin-top: 20px;
+        height: 150px; /* Adjust image size for smaller screens */
+        width: 150px;
+    }
+
+    .content h2 {
+        font-size: x-large; /* Adjust heading size for smaller screens */
+    }
+
+    .content h4 {
+        font-size: medium; /* Adjust heading size for smaller screens */
+    }
+
+    .content p {
+        font-size: small;
+ 
+    }
+
+    .citlogo{
+        display: none;
+    }
+    
+    .navigation.show {
+        display: flex;
+    }
+
+    .citlogo2{
+        display: flex;
+    }
+
+    .citlogo2 img{
+        height: 200px;
+        width: auto;
+    }
+
+    .carousel-text1{
+        font-size: x-small;
+    }
+
+    .carousel-text{
+        font-size: smaller;
+    }
+
+    .groupedButtons{
+        height: 5px;
+    }
+
+    .groupedButtons a{
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 5x 30px;
+        background: darkred;
+        border-radius: 10px;
+        border: 2px solid darkred;
+        font-weight: 500;
+        transition: .3s;
+    }
+
+
+    .orglogos-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .orglogo {
+       margin-bottom: 40px;
+        margin-right: 0; /* Remove the margin to prevent logos from being displayed side by side */
+    }
+
+    .orglogo img {
+        display: block; /* Ensure the images take the full width */
+        margin: 0 auto; /* Center the images */
+    }
+
+    .orgdescription {
+       text-align: center;
+    }
+
+    .video-container iframe{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%; /* Add % here */
+        height: 60%;
+    }
+    
+}
