@@ -50,6 +50,13 @@ function toggleContent() {
       </div>
 
       <div class="containers">
+      <h3>Engr. Maricel B. Bongares</h3>
+      <h4>BS Chemical Engineering</h4>
+      <h4>Masters in Business Administration (Ongoing)</h4>
+      <h4>Applied Chemistry, Applied Physics</h4>
+      </div>
+
+      <div class="containers">
           <h3>Engr. Estelito C. Carpio Jr.</h3>
           <h4>BS Mechatronics Engineering & BIT Mechanical Technology</h4>
           <h4>CADCAM, Engineering Subjects</h4>
